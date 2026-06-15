@@ -9,8 +9,6 @@ repository: "https://github.com/takuyaw-w/useList"
 order: 1
 --------
 
-# vue3-uselist
-
 `vue3-uselist` は、Vue 3でリスト状態を扱うために作成したComposableです。
 
 配列の状態を `ref` として保持し、要素の追加、削除、挿入、更新、絞り込み、並び替えといった操作を `actions` としてまとめています。コンポーネント内で配列操作の実装が散らばるのを避け、リスト操作の責務を小さなComposableに切り出すことを目的にしました。

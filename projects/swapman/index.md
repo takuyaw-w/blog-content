@@ -9,8 +9,6 @@ repository: "https://github.com/takuyaw-w/swapman"
 order: 3
 --------
 
-# Swapman
-
 `swapman` は、VS Code上で2つの選択範囲を入れ替えるために作成した拡張機能です。
 
 エディタ上で2箇所を選択し、コマンドを実行すると、選択された2つの文字列を相互に入れ替えます。小さな機能ですが、VS Code Extension APIを使って、エディタの選択範囲、テキスト取得、置換処理を扱う練習として作成しました。
