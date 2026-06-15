@@ -9,8 +9,6 @@ repository: "https://github.com/takuyaw-w/deno-csvgen"
 order: 4
 --------
 
-# deno-csvgen
-
 `deno-csvgen` は、JSON形式のレイアウト定義をもとに、ダミーCSVファイルを生成するCLIツールです。
 
 開発や検証の中で、任意の列構成を持つCSVデータが必要になる場面があります。このツールでは、列名や型をレイアウトファイルに定義し、コマンドラインから行数や区切り文字を指定してCSVを生成できるようにしました。
