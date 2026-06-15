@@ -1,0 +1,70 @@
+{
+  "filters": {
+    "comments": true,
+    "allowlist": {
+      "allow": [
+        "/Astro/",
+        "/Cloudflare Pages/",
+        "/Cloudflare/",
+        "/GitHub Actions/",
+        "/GitHub/",
+        "/Markdown/",
+        "/MDX/",
+        "/OGP/",
+        "/TypeScript/",
+        "/JavaScript/",
+        "/Node.js/",
+        "/npm/",
+        "/textlint/",
+        "/frontmatter/",
+        "/SES/",
+        "/SaaS/",
+        "/API/",
+        "/DB/",
+        "/UI/",
+        "/UX/",
+        "/Content Collections/",
+        "/Cloudflare Workers/",
+        "/Pages Functions/",
+        "/Deploy Hook/",
+        "/OGP自動生成/"
+      ]
+    }
+  },
+  "rules": {
+    "preset-ja-technical-writing": {
+      "sentence-length": {
+        "max": 140
+      },
+      "max-ten": {
+        "max": 5
+      },
+      "max-comma": {
+        "max": 5
+      },
+      "max-kanji-continuous-len": {
+        "max": 8,
+        "allow": [
+          "個人開発",
+          "技術記事",
+          "静的生成",
+          "自動生成",
+          "同期処理",
+          "認証基盤",
+          "画面設計",
+          "要件定義",
+          "責務分離",
+          "運用設計",
+          "記事管理",
+          "本文校正",
+          "画像最適化"
+        ]
+      },
+      "no-mix-dearu-desumasu": false,
+      "ja-no-mixed-period": {
+        "periodMark": "。"
+      },
+      "no-exclamation-question-mark": false
+    }
+  }
+}
