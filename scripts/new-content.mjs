@@ -106,6 +106,7 @@ tags: []
 draft: true
 pubDate: ${date}
 updatedDate: ${date}
+# heroImage: "./assets/hero.png"
 ---
 
 # ${title}
@@ -126,6 +127,15 @@ category: "Uncategorized"
 status: "Planning"
 period: ${quoteYaml(year)}
 tags: []
+url: ""
+repository: ""
+# heroImage: "./assets/image.png"
+heroImageAlt: ""
+gallery: []
+# gallery example:
+#   - image: "./assets/gallery-1.png"
+#     alt: "ギャラリー画像の説明"
+#     caption: "ギャラリー画像のキャプション"
 order: 0
 ---
 
