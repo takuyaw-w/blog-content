@@ -26,11 +26,27 @@
 - `heroImage` を使う場合も、記事ディレクトリ内の画像を相対パスで指定します。
 - `draft: true` の記事は本番公開対象外です。
 
+記事のスケルトンを作成します。
+
+```bash
+pnpm run new:post -- first-post "最初の記事"
+pnpm run new:post -- /notes/astro/sample-post "Sample Post"
+```
+
 ## 制作物作成ルール
 
-- 制作物・個人開発の本文は `projects/*.md` に作成します。
+- 制作物・個人開発ごとに `projects/slug/` ディレクトリを作成します。
+- 本文は `projects/slug/index.md` に作成します。
+- 画像は `projects/slug/assets/` に配置します。
 - 表示順を制御する場合は frontmatter の `order` を設定します。
 - frontmatter には `title`、`description`、`category`、`status`、`period`、`tags`、`order` を設定します。
+
+制作物・個人開発のスケルトンを作成します。
+
+```bash
+pnpm run new:project -- my-project "My Project"
+pnpm run new:project -- /apps/sample-project "Sample Project"
+```
 
 ## About
 

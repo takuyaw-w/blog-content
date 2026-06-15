@@ -11,7 +11,9 @@
     "lint:fix": "textlint --fix \"{blog,projects,about}/**/*.{md,mdx}\"",
     "lint:blog": "textlint \"blog/**/*.{md,mdx}\"",
     "lint:projects": "textlint \"projects/**/*.{md,mdx}\"",
-    "lint:about": "textlint \"about/**/*.{md,mdx}\""
+    "lint:about": "textlint \"about/**/*.{md,mdx}\"",
+    "new:post": "node scripts/new-content.mjs post",
+    "new:project": "node scripts/new-content.mjs project"
   },
   "devDependencies": {
     "oxfmt": "^0.55.0",
