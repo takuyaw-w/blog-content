@@ -1,8 +1,23 @@
 ---
 title: "About"
 description: "このブログと運営者について"
-updatedDate: 2026-06-16
-avatarImage: "/content-assets/about/avatar.jpg"
+name: "Takuya"
+role: "Software Developer"
+location: "Japan"
+highlights:
+  - "個人開発と技術検証の記録を公開しています"
+  - "Astro と TypeScript を中心に Web アプリケーションを制作しています"
+skillGroups:
+  - category: "Frontend"
+    items:
+      - name: "Astro"
+        years: "1+"
+      - name: "TypeScript"
+        years: "3+"
+  - category: "Infrastructure"
+    items:
+      - name: "Cloudflare"
+        years: "1+"
 ---
 
 # About
