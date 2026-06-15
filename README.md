@@ -39,6 +39,18 @@
 
 ## Lint
 
+Markdown のフォーマットを確認します。
+
+```bash
+pnpm run format:check
+```
+
+Markdown をフォーマットします。
+
+```bash
+pnpm run format
+```
+
 文章校正を実行します。
 
 ```bash
