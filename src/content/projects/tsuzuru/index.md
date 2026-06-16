@@ -2,7 +2,7 @@
 title: "Tsuzuru"
 description: "TypeScriptで作成した、ブラウザ向けノベルゲームを構築するためのビジュアルノベルエンジンです。読みやすい.tzrシナリオDSL、framework-neutralなcore runtime、Vite連携、Preactベースの公式UI、標準プラグイン群を提供しています。"
 category: "Game Engine"
-status: "In Development"
+status: "Active"
 period: "2026"
 tags: ["TypeScript", "Game Engine", "Visual Novel", "Preact", "Vite"]
 url: ""
