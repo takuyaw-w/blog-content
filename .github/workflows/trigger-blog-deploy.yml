@@ -1,0 +1,17 @@
+name: Trigger Blog Deploy
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Trigger Cloudflare Workers Deploy Hook
+        run: curl -fsS -X POST "$CLOUDFLARE_WORKERS_DEPLOY_HOOK"
+        env:
+          CLOUDFLARE_WORKERS_DEPLOY_HOOK: ${{ secrets.CLOUDFLARE_WORKERS_DEPLOY_HOOK }}

@@ -16,6 +16,13 @@
 
 記事画像は各記事ディレクトリの `assets/` に配置し、Markdown からは相対パスで参照します。
 
+## デプロイ連携
+
+- GitHub Webhook から Cloudflare Workers Deploy Hook を直接叩く方式は廃止します。
+- `blog-content` の `main` ブランチ push 時だけ GitHub Actions から Deploy Hook を叩きます。
+- Repository Secret `CLOUDFLARE_WORKERS_DEPLOY_HOOK` に Cloudflare Workers Deploy Hook URL を設定します。
+- 既存の GitHub Webhook は GitHub の Settings > Webhooks から削除または無効化します。
+
 ## 記事作成ルール
 
 - 記事ごとに `blog/YYYY/MM/slug/` ディレクトリを作成します。
