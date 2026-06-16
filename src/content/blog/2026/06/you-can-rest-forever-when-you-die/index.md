@@ -3,7 +3,7 @@ title: "死んだら永遠に休めますを読んだ"
 description: "遠坂八重『死んだら永遠に休めます』を読んだ。パワハラとミステリーが絡む会社小説の読書メモ。"
 category: "読書"
 tags: ["遠坂八重", "ミステリー", "パワハラ"]
-draft: true
+draft: false
 pubDate: 2026-06-17
 updatedDate: 2026-06-17
 heroImage: "./assets/image.png"
