@@ -111,8 +111,6 @@ updatedDate: ${date}
 # heroImage: "./assets/hero.png"
 ---
 
-# ${title}
-
 本文をここに書きます。
 `;
 
@@ -140,8 +138,6 @@ gallery: []
 #     caption: "ギャラリー画像のキャプション"
 order: 0
 ---
-
-# ${title}
 
 本文をここに書きます。
 `;
