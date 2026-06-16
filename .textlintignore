@@ -3,4 +3,4 @@ dist/
 .cache/
 .content/
 .tmp/
-assets/
+src/content/**/assets/

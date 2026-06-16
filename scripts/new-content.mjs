@@ -15,8 +15,9 @@ Examples:
 `;
 
 const kind = process.argv[2];
-const rawSlug = process.argv[3];
-const title = process.argv[4] ?? rawSlug;
+const args = process.argv.slice(3);
+const [rawSlug, rawTitle] = args[0] === "--" ? args.slice(1) : args;
+const title = rawTitle ?? rawSlug;
 
 if (!["post", "project"].includes(kind) || !rawSlug) {
   console.error(USAGE.trim());
@@ -50,6 +51,7 @@ if (path.isAbsolute(slugPath) || slugPath.startsWith("..")) {
 }
 
 const quoteYaml = (value) => `"${String(value).replaceAll("\\", "\\\\").replaceAll('"', '\\"')}"`;
+const CONTENT_ROOT = path.join("src", "content");
 
 const tokyoDateParts = () => {
   const parts = new Intl.DateTimeFormat("en-CA", {
@@ -97,7 +99,7 @@ const writeSkeleton = ({ contentDir, content }) => {
 
 const buildPost = () => {
   const { year, month, date } = tokyoDateParts();
-  const contentDir = path.join("blog", year, month, slugPath);
+  const contentDir = path.join(CONTENT_ROOT, "blog", year, month, slugPath);
   const content = `---
 title: ${quoteYaml(title)}
 description: "記事の説明をここに書きます"
@@ -119,7 +121,7 @@ updatedDate: ${date}
 
 const buildProject = () => {
   const { year } = tokyoDateParts();
-  const contentDir = path.join("projects", slugPath);
+  const contentDir = path.join(CONTENT_ROOT, "projects", slugPath);
   const content = `---
 title: ${quoteYaml(title)}
 description: "プロジェクトの説明をここに書きます"
