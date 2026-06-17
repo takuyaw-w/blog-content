@@ -1,11 +1,10 @@
 ---
 title: "About"
 description: "Web開発とフロントエンドを軸に、これまでの実務経験、扱ってきた技術、個人開発の取り組みをまとめています。"
-heroImage: "https://avatars.githubusercontent.com/u/22423740?v=4"
+heroImage: "./assets/profile.png"
 name: "Nakajima Takuya"
 role: "Frontend Engineer / Software Engineer"
-age: "33"
-location: "Saitama, Japan"
+location: "日本 / 埼玉"
 company: "株式会社テクニケーションシード"
 experience: "約10年"
 highlights:
@@ -13,7 +12,7 @@ highlights:
   - "Vue、TypeScriptを軸に、画面実装、状態管理、API連携、UI改善までを扱うフロントエンド開発"
   - "Laravel、Python、PostgreSQL、AWSを用いたバックエンド、バッチ処理、性能検証の経験"
   - "既存システムの保守運用から新規機能開発まで、要件確認と実装の接続を重視"
-  - "Astro、Cloudflare Pages、CLI、ノベルゲームエンジンなどの個人開発を通じた開発体験の検証"
+  - "Astro、Cloudflare workers、CLI、ノベルゲームエンジンなどの個人開発を通じた開発体験の検証"
 skillGroups:
   - category: "Languages"
     items:
@@ -100,6 +99,27 @@ career:
     company: "株式会社あーぷ"
     title: "Web Coder"
     description: "受託開発案件において、HTML/CSSを中心としたWebページの修正、既存システムの運用保守、調査、資料確認などを担当しました。大規模な設計・開発よりも、既存資産の保守や現場運用に関わる業務を中心に経験しました。"
+uses:
+  - category: "Devices"
+    items:
+      - name: "Dell Inspiron 5502"
+        description: "メインマシン。OSは気分で入れ直したりしている。"
+      - name: "DELL S2721DS"
+        description: "27インチの大きめディスプレイ。仕事・私用兼用。"
+      - name: "HHKB Professional HYBRID"
+        description: "白の無線キーボード。静電容量無接点方式の打鍵感が気に入っている。"
+      - name: "Pixel 8"
+        description: "特にこだわりなし。"
+  - category: "Software"
+    items:
+      - name: "VS Code"
+        description: "そろそろ別のエディタに切り替えたいと思いつつ、これを使い続けている。"
+  - category: "Everyday"
+    items:
+      - name: "PILOT LIGHTIVE"
+        description: "紺色の万年筆。軽くて、書き味も悪くなくて気に入っている。"
+      - name: "栄信堂 A5システム手帳"
+        description: "ネイビーの本革6穴システム手帳。リフィルを入れ替えながら、メモや予定を書き留めるために使っている。"
 socials:
   - label: "X"
     url: "https://x.com/takuyaw_w_x"
