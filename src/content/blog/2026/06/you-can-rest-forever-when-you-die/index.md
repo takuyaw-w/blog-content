@@ -5,11 +5,12 @@ category: "読書"
 tags: ["遠坂八重", "ミステリー", "パワハラ"]
 draft: false
 pubDate: 2026-06-17
-updatedDate: 2026-06-17
+updatedDate: 2026-06-18
 heroImage: "./assets/image.png"
 ---
 
 遠坂八重さんの『死んだら永遠に休めます』を読んだ。
+読了日は2026年05月22日。
 
 ## 手に取ったきっかけ
 
